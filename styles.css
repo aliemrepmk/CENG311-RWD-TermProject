@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* styling to the header, main, footer */
+header, main, footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color:#fff;
+}
+
+main {
+    margin-top: 200px;
+}
+
+main, footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+img.hero-image {
+    width: 1000px;
+    height: 500px;
+    object-fit: cover;
+}
+
+/* styling to the hero content */
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 18px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.logo-container .club-info {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.club-info img {
+    margin-left: 20px;
+}
+
+/* styling to the footer */
+footer {
+    background-color: #0d690d;
+    color: #fff;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+
+footer p {
+    padding: 10px 0;
+    margin: 0;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.member {
+    text-align: center;
+}
+
+.member img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.member p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}

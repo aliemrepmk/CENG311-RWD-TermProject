@@ -1,0 +1,97 @@
+<!--  This is the gallery page of our website.
+      It will contain photos and videos from the past events of the club. 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="gallery.css">  <!-- Added a separate css file to manage gallery section effectively. -->
+    <link rel="stylesheet" href="navbar.css">
+    <title>AYBU Hiking Club Gallery</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo-container">
+                <div class="club-info">
+                    <img src="assets/logos/logo.jpg" alt="Our logo">
+                    <h1>AYBU Hiking Club</h1>
+                </div>
+                <div class="aybu-logo">
+                    <img src="assets/logos/aybu.jpg" alt="AYBU logo">
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="gallery.html" class="active">Gallery</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <div class="container gallery-container">
+            <section class="gallery">  <!-- This section contains photos and images. -->
+
+                <div class="gallery-item">
+                    <img src="assets/images/hiking.jpg" alt="Image 1">
+                </div>
+
+                <div class="gallery-item">
+                    <video controls>
+                        <source src="assets/videos/video1.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="assets/images/hiking.jpg" alt="Image 3">
+                </div>
+
+                <div class="gallery-item">
+                    <video controls>
+                        <source src="assets/videos/video2.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <div class="gallery-item">
+                    <video controls>
+                        <source src="assets/videos/video3.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="assets/images/hiking.jpg" alt="Image 6">
+                </div>
+
+                <div class="gallery-item">
+                    <video controls>
+                        <source src="assets/videos/video4.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="assets/images/hiking.jpg" alt="Image 8">
+                </div>
+
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 AYBU Hiking Club. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
